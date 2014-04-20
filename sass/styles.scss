@@ -1,0 +1,190 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "bootstrap";
+
+/* Common */
+
+body {
+  font-family: $font-family-sans-serif;
+}
+
+img {
+  max-width: 100%;
+  width:auto;
+  height: auto;
+}
+
+#header, #content {
+  margin-bottom: 2em;
+}
+
+#info {
+  border-top:1px solid #428BCA;
+}
+
+#footer #info {
+  padding: 1em 0;
+}
+
+/* ~Common */
+
+/* Header */
+
+#site-name {
+  font-size: 2em;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#site-slogan h2 {
+  font-size: 1em;
+}
+
+#language-switcher a {
+//  color: #bbbac0;
+  color:#428BCA;
+  border:1px solid #428BCA;
+  padding:0.5em;
+  border-radius: 50%;
+  float:right;
+}
+
+#language-switcher a:hover {
+  //  color: #bbbac0;
+  color:#fff;
+  background-color:#428BCA;
+  text-decoration: none;
+}
+
+#language-switcher {
+  float:right;
+  margin-top:30px;
+}
+
+/* ~Header */
+
+/* Forms */
+
+input[type='submit'] {
+  background-color: #428BCA; // @todo: add constant for the color.
+  max-width: 300px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  height: 6rem;
+  /*margin-bottom: 15px;*/
+  padding: 1rem 1.5rem;
+  border: none;
+  background: #ffffff;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  color: #555555;
+  border: 1px solid #ccc;
+}
+
+input[type='checkbox'] {
+  width: auto;
+  height: auto;
+}
+
+textarea {
+  height: auto;
+}
+
+input[type='text'], input[type='password'], textarea {
+  border: 1px solid #ccc;
+}
+
+select {
+  cursor: pointer;
+  line-height: 5.6rem;
+  padding: 1.7rem 1.5rem;
+  -webkit-appearance: menulist-button;
+}
+
+input[type='submit'] {
+  height: 6rem;
+  font-size: 2.5rem;
+  color: #ffffff;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+}
+
+input[type='submit']:hover {
+  opacity: 0.9;
+}
+
+input[type='submit']:active {
+  border-bottom: 1px solid #b85146;
+}
+
+/* ~Forms */
+
+/* Content and fields. */
+.submitted {
+  padding: 1em 0;
+}
+
+.content .field-type-taxonomy-term-reference {
+  padding: 0 0 1em;
+}
+
+.content .field-type-taxonomy-term-reference .field-item {
+  display:inline-block;
+  margin-right:1em;
+  padding:0.4em;
+  background-color: #eee;
+}
+
+.content .node-teaser ul.links {
+  float:right;
+}
+
+ul.pager {
+  margin-top: 2em;
+}
+
+ul.pager .pager-current {
+  display: none;
+}
+
+ul.pager .pager-next {
+  float:right;
+}
+ul.pager .pager-previous {
+  float:left;
+  margin-left: 0;
+}
+
+ul.pager .pager-next a,
+ul.pager .pager-previous a {
+  color:#428BCA;
+  border:1px solid #428BCA;
+  padding:0.5em;
+}
+
+ul.pager .pager-next a:hover,
+ul.pager .pager-previous a:hover {
+  //  color: #bbbac0;
+  color:#fff;
+  background-color:#428BCA;
+  text-decoration: none;
+}
+
+.b-share_theme_counter {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.b-share_theme_counter .b-share-btn__wrap {
+  padding-right:5px;
+}
+
+/* ~Content and fields. */

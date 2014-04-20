@@ -1,0 +1,46 @@
+name = Designless
+description = Bootstrap 3 powered theme with minimalistic design intended for personal bilingual (ru, en) blog.
+core = 7.x
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+; Special regions for being used in node template.
+regions[node_above_content] = Above node content
+regions[node_below_content] = Below node content
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = stylesheets/styles.css
+
+
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+;exclude[js][] = 'sites/all/themes/camp2014/js/bootstrap.js'
+
+;scripts[] = 'javascripts/bootstrap/affix.js'
+;scripts[] = 'javascripts/bootstrap/alert.js'
+;scripts[] = 'javascripts/bootstrap/button.js'
+;scripts[] = 'javascripts/bootstrap/carousel.js'
+;scripts[] = 'javascripts/bootstrap/collapse.js'
+;scripts[] = 'javascripts/bootstrap/dropdown.js'
+;scripts[] = 'javascripts/bootstrap/modal.js'
+;scripts[] = 'javascripts/bootstrap/tooltip.js'
+;scripts[] = 'javascripts/bootstrap/popover.js'
+;scripts[] = 'javascripts/bootstrap/scrollspy.js'
+;scripts[] = 'javascripts/bootstrap/tab.js'
+;scripts[] = 'javascripts/bootstrap/transition.js'
