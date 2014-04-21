@@ -7891,34 +7891,50 @@ button.close {
     display: none !important;
   }
 }
-/* line 5, ../sass/styles.scss */
+/* Common */
+/* line 7, ../sass/styles.scss */
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 9, ../sass/styles.scss */
+/* line 11, ../sass/styles.scss */
 img {
   max-width: 100%;
   width: auto;
   height: auto;
 }
 
-/* line 15, ../sass/styles.scss */
+/* line 17, ../sass/styles.scss */
 #header, #content {
   margin-bottom: 2em;
 }
 
-/* line 19, ../sass/styles.scss */
+/* line 21, ../sass/styles.scss */
 #info {
   border-top: 1px solid #428BCA;
 }
 
-/* line 23, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 #footer #info {
   padding: 1em 0;
 }
 
-/* line 27, ../sass/styles.scss */
+/* ~Common */
+/* Header */
+/* line 33, ../sass/styles.scss */
+#site-name {
+  font-size: 2em;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 40, ../sass/styles.scss */
+#site-slogan h2 {
+  font-size: 1em;
+}
+
+/* line 44, ../sass/styles.scss */
 #language-switcher a {
   color: #428BCA;
   border: 1px solid #428BCA;
@@ -7927,27 +7943,28 @@ img {
   float: right;
 }
 
-/* line 36, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 #language-switcher a:hover {
   color: #fff;
   background-color: #428BCA;
   text-decoration: none;
 }
 
-/* line 43, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 #language-switcher {
   float: right;
   margin-top: 30px;
 }
 
-/* line 48, ../sass/styles.scss */
+/* ~Header */
+/* Forms */
+/* line 69, ../sass/styles.scss */
 input[type='submit'] {
   background-color: #428BCA;
-  /* <- Paste here your prefered color */
   max-width: 300px;
 }
 
-/* line 55, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 input,
 textarea,
 select {
@@ -7963,23 +7980,23 @@ select {
   border: 1px solid #ccc;
 }
 
-/* line 68, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 input[type='checkbox'] {
   width: auto;
   height: auto;
 }
 
-/* line 73, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 textarea {
   height: auto;
 }
 
-/* line 77, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 input[type='text'], input[type='password'], textarea {
   border: 1px solid #ccc;
 }
 
-/* line 81, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 select {
   cursor: pointer;
   line-height: 5.6rem;
@@ -7987,7 +8004,7 @@ select {
   -webkit-appearance: menulist-button;
 }
 
-/* line 88, ../sass/styles.scss */
+/* line 109, ../sass/styles.scss */
 input[type='submit'] {
   height: 6rem;
   font-size: 2.5rem;
@@ -7999,40 +8016,29 @@ input[type='submit'] {
   -o-transition: all 0.1s;
 }
 
-/* line 99, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 input[type='submit']:hover {
   opacity: 0.9;
 }
 
-/* line 103, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 input[type='submit']:active {
   border-bottom: 1px solid #b85146;
 }
 
-/* line 107, ../sass/styles.scss */
-#site-name {
-  font-size: 2em;
-  font-weight: normal;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-/* line 114, ../sass/styles.scss */
-#site-slogan h2 {
-  font-size: 1em;
-}
-
-/* line 118, ../sass/styles.scss */
+/* ~Forms */
+/* Content and fields. */
+/* line 131, ../sass/styles.scss */
 .submitted {
   padding: 1em 0;
 }
 
-/* line 122, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 .content .field-type-taxonomy-term-reference {
   padding: 0 0 1em;
 }
 
-/* line 126, ../sass/styles.scss */
+/* line 139, ../sass/styles.scss */
 .content .field-type-taxonomy-term-reference .field-item {
   display: inline-block;
   margin-right: 1em;
@@ -8040,33 +8046,33 @@ input[type='submit']:active {
   background-color: #eee;
 }
 
-/* line 133, ../sass/styles.scss */
+/* line 146, ../sass/styles.scss */
 .content .node-teaser ul.links {
   float: right;
 }
 
-/* line 137, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
 ul.pager {
   margin-top: 2em;
 }
 
-/* line 141, ../sass/styles.scss */
+/* line 154, ../sass/styles.scss */
 ul.pager .pager-current {
   display: none;
 }
 
-/* line 145, ../sass/styles.scss */
+/* line 158, ../sass/styles.scss */
 ul.pager .pager-next {
   float: right;
 }
 
-/* line 148, ../sass/styles.scss */
+/* line 161, ../sass/styles.scss */
 ul.pager .pager-previous {
   float: left;
   margin-left: 0;
 }
 
-/* line 154, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 ul.pager .pager-next a,
 ul.pager .pager-previous a {
   color: #428BCA;
@@ -8074,7 +8080,7 @@ ul.pager .pager-previous a {
   padding: 0.5em;
 }
 
-/* line 161, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 ul.pager .pager-next a:hover,
 ul.pager .pager-previous a:hover {
   color: #fff;
@@ -8082,13 +8088,20 @@ ul.pager .pager-previous a:hover {
   text-decoration: none;
 }
 
-/* line 168, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 .b-share_theme_counter {
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
-/* line 173, ../sass/styles.scss */
+/* line 185, ../sass/styles.scss */
 .b-share_theme_counter .b-share-btn__wrap {
   padding-right: 5px;
 }
+
+/* line 189, ../sass/styles.scss */
+.above_node_content, .below_node_content {
+  padding: 1em 0;
+}
+
+/* ~Content and fields. */

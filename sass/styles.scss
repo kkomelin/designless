@@ -172,7 +172,6 @@ ul.pager .pager-previous a {
 
 ul.pager .pager-next a:hover,
 ul.pager .pager-previous a:hover {
-  //  color: #bbbac0;
   color:#fff;
   background-color:#428BCA;
   text-decoration: none;
@@ -185,6 +184,10 @@ ul.pager .pager-previous a:hover {
 
 .b-share_theme_counter .b-share-btn__wrap {
   padding-right:5px;
+}
+
+.above_node_content, .below_node_content {
+  padding: 1em 0;
 }
 
 /* ~Content and fields. */

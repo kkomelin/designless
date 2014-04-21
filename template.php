@@ -78,13 +78,13 @@ function designless_preprocess_node(&$vars) {
   // Add special region to put Ad inside the node.tpl.php.
   if (!drupal_is_front_page()) {
     if ($node_above_content = block_get_blocks_by_region('node_above_content')) {
-      $variables['node_above_content'] = $node_above_content;
-      $variables['node_below_content'] = '';
+      $vars['node_above_content'] = $node_above_content;
+      $vars['node_below_content'] = '';
     }
 
     if ($node_below_content = block_get_blocks_by_region('node_below_content')) {
-      $variables['node_above_content'] = '';
-      $variables['node_below_content'] = $node_below_content;
+      $vars['node_above_content'] = '';
+      $vars['node_below_content'] = $node_below_content;
     }
   }
 }
