@@ -77,7 +77,7 @@
   <div id="menu" class="header-menu fixed">
     <div class="container">
       <div class="row">
-        <nav role="navigation" class="col-md-10 col-md-offset-1 col-sm-11 col-xs-9">
+        <nav role="navigation" class="col-md-11 col-sm-11 col-xs-9">
           <div class="navbar-header">
                 <?php if ($logo): ?>
                   <a class="navbar-brand logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
@@ -105,10 +105,15 @@
                 <?php endif; ?>
           </div>
         </nav>
-        <div id="language-switcher"  class="col-md-1 col-sm-1 col-xs-3">
-          <?php if ($simple_language_switcher): ?>
-            <?php print $simple_language_switcher; ?>
-          <?php endif; ?>
+        <div class="col-md-1 col-sm-1 col-xs-3">
+          <nav>
+            <?php print render($page['navigation']); ?>
+          </nav>
+          <div id="language-switcher">
+            <?php if ($simple_language_switcher): ?>
+              <?php print $simple_language_switcher; ?>
+            <?php endif; ?>
+          </div>
         </div>
       </div>
     </div>
@@ -121,13 +126,13 @@
   <div class="container">
 
     <div id="messages" class="row">
-      <div id="main" class="col-md-10 col-md-offset-1 clearfix">
+      <div id="main" class="col-md-12 clearfix">
         <?php print $messages; ?>
       </div>
     </div>
 
     <div id="main-wrapper" class="row">
-      <div id="main" class="col-md-10 col-md-offset-1 clearfix">
+      <div id="main" class="col-md-12 clearfix">
 
         <div class="content" >
           <div class="section">
@@ -152,7 +157,7 @@
 <footer id="footer">
     <div class="container">
       <section id="info" class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-12 clearfix">
           <?php print render($page['footer']); ?>
         </div>
       </section>

@@ -2028,13 +2028,13 @@ pre code {
 @media (min-width: 992px) {
   /* line 10, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 970px;
+    width: 870px;
   }
 }
 @media (min-width: 1200px) {
   /* line 10, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 1170px;
+    width: 970px;
   }
 }
 
