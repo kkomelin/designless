@@ -1407,7 +1407,7 @@ html {
 /* line 27, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   color: #333333;
   background-color: white;
@@ -1425,12 +1425,12 @@ textarea {
 
 /* line 48, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #428bca;
+  color: #a0a0a0;
   text-decoration: none;
 }
 /* line 53, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #2a6496;
+  color: #535353;
   text-decoration: underline;
 }
 /* line 58, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1618,14 +1618,14 @@ p {
 /* line 62, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 200;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   /* line 62, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
   .lead {
-    font-size: 21px;
+    font-size: 24px;
   }
 }
 
@@ -1674,12 +1674,12 @@ mark,
 
 /* line 5, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #428bca;
+  color: #a0a0a0;
 }
 
 /* line 8, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover {
-  color: #3071a9;
+  color: #878787;
 }
 
 /* line 5, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
@@ -1729,12 +1729,12 @@ a.text-danger:hover {
 
 /* line 5, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #428bca;
+  background-color: #a0a0a0;
 }
 
 /* line 8, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover {
-  background-color: #3071a9;
+  background-color: #878787;
 }
 
 /* line 5, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
@@ -1978,7 +1978,7 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.428571429;
   word-break: break-all;
   word-wrap: break-word;
@@ -3397,7 +3397,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 24px;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -3457,7 +3457,7 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 7px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   color: #555555;
 }
@@ -3468,7 +3468,7 @@ output {
   width: 100%;
   height: 34px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   color: #555555;
   background-color: white;
@@ -3959,7 +3959,7 @@ select[multiple].input-lg,
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -4159,7 +4159,7 @@ select[multiple].input-lg,
 
 /* line 85, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #428bca;
+  color: #a0a0a0;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -4176,7 +4176,7 @@ select[multiple].input-lg,
 }
 /* line 105, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #2a6496;
+  color: #535353;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4305,7 +4305,7 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
   background-color: white;
   border: 1px solid #cccccc;
@@ -4728,7 +4728,7 @@ tbody.collapse.in {
 /* line 69, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1;
   color: #555555;
@@ -4867,7 +4867,7 @@ tbody.collapse.in {
 /* line 48, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #428bca;
+  border-color: #a0a0a0;
 }
 /* line 59, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .nav-divider {
@@ -5949,7 +5949,7 @@ a.badge:hover, a.badge:focus {
   /* line 44, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 72px;
   }
 }
 
@@ -5985,7 +5985,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #428bca;
+  border-color: #a0a0a0;
 }
 
 /* line 9, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_alerts.scss */
@@ -6476,7 +6476,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 18px;
   color: inherit;
 }
 /* line 39, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
@@ -6860,7 +6860,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 /* line 6, ../../../../../../../bin/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_close.scss */
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 24px;
   font-weight: bold;
   line-height: 1;
   color: black;
@@ -7209,7 +7209,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 18px;
   background-color: #f7f7f7;
@@ -7892,111 +7892,142 @@ button.close {
   }
 }
 /* Common */
-/* line 7, ../sass/styles.scss */
+/* line 8, ../sass/styles.scss */
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 11, ../sass/styles.scss */
+/* line 12, ../sass/styles.scss */
 img {
   max-width: 100%;
   width: auto;
   height: auto;
 }
 
-/* line 17, ../sass/styles.scss */
+/* line 18, ../sass/styles.scss */
 #header, #content {
   margin-bottom: 2em;
 }
 
-/* line 21, ../sass/styles.scss */
+/* line 22, ../sass/styles.scss */
 #info {
-  border-top: 1px solid #428BCA;
+  border-top: 1px solid #a0a0a0;
+  padding: 1em 0;
 }
 
-/* line 25, ../sass/styles.scss */
-#footer #info {
-  padding: 1em 0;
+/* line 27, ../sass/styles.scss */
+h1, h2 {
+  text-align: center;
+}
+/* line 29, ../sass/styles.scss */
+h1 a, h2 a {
+  color: #535353;
+}
+/* line 31, ../sass/styles.scss */
+h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus {
+  color: #a0a0a0;
+  text-decoration: none;
 }
 
 /* ~Common */
 /* Header */
-/* line 33, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
+#name-and-slogan {
+  text-align: center;
+}
+
+/* line 45, ../sass/styles.scss */
 #site-name {
   font-size: 2em;
   font-weight: normal;
   margin-top: 20px;
   margin-bottom: 10px;
+  text-transform: uppercase;
+}
+/* line 52, ../sass/styles.scss */
+#site-name a {
+  color: #535353;
+}
+/* line 54, ../sass/styles.scss */
+#site-name a:hover, #site-name a:focus {
+  color: #a0a0a0;
+  text-decoration: none;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 61, ../sass/styles.scss */
+#site-slogan {
+  text-align: center;
+}
+/* line 63, ../sass/styles.scss */
 #site-slogan h2 {
   font-size: 1em;
 }
 
-/* line 44, ../sass/styles.scss */
-#language-switcher a {
-  color: #428BCA;
-  border: 1px solid #428BCA;
-  padding: 0.5em;
-  border-radius: 50%;
-  float: right;
+/* line 68, ../sass/styles.scss */
+#language-switcher {
+  margin-top: 30px;
+  text-align: center;
 }
-
-/* line 53, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
+#language-switcher a {
+  border: 1px solid #a0a0a0;
+  padding: 0.5em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 76, ../sass/styles.scss */
 #language-switcher a:hover {
   color: #fff;
-  background-color: #428BCA;
+  background-color: #a0a0a0;
   text-decoration: none;
-}
-
-/* line 60, ../sass/styles.scss */
-#language-switcher {
-  float: right;
-  margin-top: 30px;
 }
 
 /* ~Header */
 /* Forms */
-/* line 69, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 input[type='submit'] {
-  background-color: #428BCA;
+  background-color: #a0a0a0;
   max-width: 300px;
 }
 
-/* line 76, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 input,
 textarea,
 select {
   width: 100%;
   height: 6rem;
-  /*margin-bottom: 15px;*/
   padding: 1rem 1.5rem;
-  border: none;
   background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
   font-size: 1.6rem;
   color: #555555;
   border: 1px solid #ccc;
 }
 
-/* line 89, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 input[type='checkbox'] {
   width: auto;
   height: auto;
 }
 
-/* line 94, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 textarea {
   height: auto;
 }
 
-/* line 98, ../sass/styles.scss */
+/* line 115, ../sass/styles.scss */
 input[type='text'], input[type='password'], textarea {
   border: 1px solid #ccc;
 }
 
-/* line 102, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 select {
   cursor: pointer;
   line-height: 5.6rem;
@@ -8004,7 +8035,7 @@ select {
   -webkit-appearance: menulist-button;
 }
 
-/* line 109, ../sass/styles.scss */
+/* line 126, ../sass/styles.scss */
 input[type='submit'] {
   height: 6rem;
   font-size: 2.5rem;
@@ -8016,29 +8047,35 @@ input[type='submit'] {
   -o-transition: all 0.1s;
 }
 
-/* line 120, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 input[type='submit']:hover {
   opacity: 0.9;
 }
 
-/* line 124, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 input[type='submit']:active {
-  border-bottom: 1px solid #b85146;
+  border-bottom: 1px solid #d9534f;
 }
 
 /* ~Forms */
 /* Content and fields. */
-/* line 131, ../sass/styles.scss */
-.submitted {
-  padding: 1em 0;
+/* line 148, ../sass/styles.scss */
+.node {
+  margin-bottom: 2em;
 }
 
-/* line 135, ../sass/styles.scss */
+/* line 152, ../sass/styles.scss */
+.submitted {
+  padding: 1em 0;
+  text-align: center;
+}
+
+/* line 157, ../sass/styles.scss */
 .content .field-type-taxonomy-term-reference {
   padding: 0 0 1em;
 }
 
-/* line 139, ../sass/styles.scss */
+/* line 161, ../sass/styles.scss */
 .content .field-type-taxonomy-term-reference .field-item {
   display: inline-block;
   margin-right: 1em;
@@ -8046,60 +8083,65 @@ input[type='submit']:active {
   background-color: #eee;
 }
 
-/* line 146, ../sass/styles.scss */
-.content .node-teaser ul.links {
-  float: right;
+/* line 168, ../sass/styles.scss */
+.content img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 170, ../sass/styles.scss */
+.content img .center {
+  margin: 0 auto;
+  display: block;
 }
 
-/* line 150, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 ul.pager {
   margin-top: 2em;
 }
-
-/* line 154, ../sass/styles.scss */
+/* line 178, ../sass/styles.scss */
 ul.pager .pager-current {
   display: none;
 }
-
-/* line 158, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 ul.pager .pager-next {
   float: right;
 }
-
-/* line 161, ../sass/styles.scss */
+/* line 184, ../sass/styles.scss */
 ul.pager .pager-previous {
   float: left;
   margin-left: 0;
 }
 
-/* line 167, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 ul.pager .pager-next a,
 ul.pager .pager-previous a {
-  color: #428BCA;
-  border: 1px solid #428BCA;
+  border: 1px solid #a0a0a0;
   padding: 0.5em;
 }
 
-/* line 174, ../sass/styles.scss */
+/* line 197, ../sass/styles.scss */
 ul.pager .pager-next a:hover,
 ul.pager .pager-previous a:hover {
   color: #fff;
-  background-color: #428BCA;
+  background-color: #a0a0a0;
   text-decoration: none;
 }
 
-/* line 180, ../sass/styles.scss */
+/* line 203, ../sass/styles.scss */
 .b-share_theme_counter {
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
-/* line 185, ../sass/styles.scss */
+/* line 208, ../sass/styles.scss */
 .b-share_theme_counter .b-share-btn__wrap {
   padding-right: 5px;
 }
 
-/* line 189, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 .above_node_content, .below_node_content {
   padding: 1em 0;
 }

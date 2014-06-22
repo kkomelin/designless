@@ -77,43 +77,46 @@
   <div id="menu" class="header-menu fixed">
     <div class="container">
       <div class="row">
-        <nav role="navigation" class="col-md-11 col-sm-11 col-xs-9">
-          <div class="navbar-header">
-                <?php if ($logo): ?>
-                  <a class="navbar-brand logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-                    <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-                  </a>
+        <nav role="navigation">
+          <div class="col-md-12" class="navbar-header">
+            <?php if ($logo): ?>
+              <a class="navbar-brand logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+                <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+              </a>
+            <?php endif; ?>
+            <?php if ($site_name || $site_slogan): ?>
+              <div id="name-and-slogan">
+                <?php if ($site_name): ?>
+                  <?php if ($title): ?>
+                    <div id="site-name">
+                      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+                    </div>
+                  <?php else: ?>
+                    <h1 id="site-name">
+                      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+                    </h1>
+                  <?php endif; ?>
                 <?php endif; ?>
-
-                <?php if ($site_name || $site_slogan): ?>
-                  <div id="name-and-slogan">
-                    <?php if ($site_name): ?>
-                      <?php if ($title): ?>
-                        <div id="site-name">
-                            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-                        </div>
-                      <?php else: ?>
-                        <h1 id="site-name">
-                          <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-                        </h1>
-                      <?php endif; ?>
-                    <?php endif; ?>
-                    <?php if ($site_slogan): ?>
-                      <div id="site-slogan">// <?php print $site_slogan; ?></div>
-                    <?php endif; ?>
-                  </div> <!-- /#name-and-slogan -->
+                <?php if ($site_slogan): ?>
+                  <div id="site-slogan">// <?php print $site_slogan; ?></div>
                 <?php endif; ?>
+              </div> <!-- /#name-and-slogan -->
+            <?php endif; ?>
           </div>
-        </nav>
-        <div class="col-md-1 col-sm-1 col-xs-3">
-          <nav>
-            <?php print render($page['navigation']); ?>
-          </nav>
-          <div id="language-switcher">
+
+          <div class="col-md-12" id="language-switcher">
             <?php if ($simple_language_switcher): ?>
               <?php print $simple_language_switcher; ?>
             <?php endif; ?>
           </div>
+
+        </nav>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <nav role="navigation">
+            <?php print render($page['navigation']); ?>
+          </nav>
         </div>
       </div>
     </div>
