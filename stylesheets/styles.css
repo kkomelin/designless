@@ -8092,7 +8092,7 @@ input[type='submit']:active {
   border-radius: 5px;
 }
 /* line 170, ../sass/styles.scss */
-.content img .center {
+.content img.center {
   margin: 0 auto;
   display: block;
 }
