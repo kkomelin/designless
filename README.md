@@ -13,7 +13,7 @@ Just make changes in /sass/.scss files and then run the foollowing command in th
 
 `compass watch`
 
-The /sass/.scss files will be compilled to /stylesheets/.css.
+The /sass/.scss files will be compiled to /stylesheets/.css.
 
 ###Usage example
 
