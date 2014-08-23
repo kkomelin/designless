@@ -50,7 +50,7 @@ function designless_preprocess_username(&$variables) {
 function designless_preprocess_node(&$vars) {
 
   // Improve 'submitted by' line.
-  $vars['submitted'] =  t('!username | !datetime',
+  $vars['submitted'] =  t('!datetime',
     array(
       '!username' => $vars['name'],
       '!datetime' => $vars['date'],

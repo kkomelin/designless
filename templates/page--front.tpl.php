@@ -128,7 +128,7 @@
     </div>
 
     <div id="main-wrapper" class="row">
-      <div id="main" class="col-md-12 clearfix">
+      <div id="main" class="<?php print ($page['sidebar'] ? 'col-md-7 col-sm-7 col-xs-12' : 'col-md-12 col-sm-12 col-xs-12');?> clearfix">
 
         <div class="content" >
           <div class="section">
@@ -146,6 +146,12 @@
         </div> <!-- /.section, /#content -->
 
       </div>
+
+      <?php if ($page['sidebar']): ?>
+        <div id="sidebar" class="col-md-5 col-sm-5 col-xs-12 sidebar">
+          <?php print render($page['sidebar']); ?>
+        </div>
+      <?php endif; ?>
     </div> <!-- /#main, /#main-wrapper -->
   </div>
 </article>

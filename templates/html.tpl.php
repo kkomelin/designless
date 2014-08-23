@@ -52,6 +52,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <?php print $styles; ?>
   <?php print $scripts; ?>
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
 <div id="skip-link">

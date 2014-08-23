@@ -20,12 +20,23 @@ img {
 }
 
 #info {
-  border-top:1px solid $brand-primary;
+  border-top:1px solid #e8e8e8;
   padding: 1em 0;
+
+  a.elf-external.elf-icon {
+    background: none;
+//    padding-right: 0;
+    font-size: 2.8em;
+    text-decoration: none;
+  }
+
+  .profiles, .badges, .copyrights {
+    padding:1em 0;
+    text-align: center;
+  }
 }
 
 h1, h2 {
-  text-align: center;
   a {
     color:$link-hover-color;
     &:hover, &:focus {
@@ -149,6 +160,12 @@ input[type='submit']:active {
   margin-bottom:2em;
 }
 
+.page-node, .page-blog {
+  #page-title {
+    text-align: center;
+  }
+}
+
 .submitted {
   padding: 1em 0;
   text-align: center;
@@ -174,31 +191,34 @@ input[type='submit']:active {
 }
 
 ul.pager {
-  margin-top: 2em;
+  li {
+    margin-left:1em;
+  }
+//  margin-top: 2em;
   .pager-current {
-    display: none;
+    font-weight: normal;
   }
-  .pager-next {
-    float:right;
-  }
-  .pager-previous {
-    float:left;
-    margin-left: 0;
-  }
+//  .pager-next {
+//    float:right;
+//  }
+//  .pager-previous {
+//    float:left;
+//    margin-left: 0;
+//  }
 }
-
-ul.pager .pager-next a,
-ul.pager .pager-previous a {
-  border:1px solid $link-color;
-  padding:0.5em;
-}
-
-ul.pager .pager-next a:hover,
-ul.pager .pager-previous a:hover {
-  color:#fff;
-  background-color:$link-color;
-  text-decoration: none;
-}
+//
+//ul.pager .pager-next a,
+//ul.pager .pager-previous a {
+//  border:1px solid $link-color;
+//  padding:0.5em;
+//}
+//
+//ul.pager .pager-next a:hover,
+//ul.pager .pager-previous a:hover {
+//  color:#fff;
+//  background-color:$link-color;
+//  text-decoration: none;
+//}
 
 .b-share_theme_counter {
   padding-top: 1em;
@@ -225,3 +245,40 @@ ul.pager .pager-previous a:hover {
   text-align: center;
 }
 /* ~Blocks*/
+
+/* Frontpage */
+body.front {
+  #main {
+//    border: 1px solid #e8e8e8;
+    @include border-radius(5px);
+    padding:10px 20px;
+
+    #page-title {
+      margin-top:0;
+      text-align: left;
+    }
+    .block-views {
+      .node {
+        margin-bottom:10px;
+        h2 {
+          margin:0;
+        }
+      }
+    }
+
+    .view-articles {
+      .views-row {
+        padding: 10px 0;
+      }
+      .more {
+        margin-top:1em;
+      }
+    }
+  }
+}
+
+/* Yashare */
+.yashare-auto-init {
+  text-align: center;
+  padding:1.5em;
+}
