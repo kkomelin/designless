@@ -96,12 +96,6 @@
     </div>
   <?php endif; ?>
 
-  <?php if ($node_above_content): ?>
-    <div class="above_node_content">
-      <?php print render($node_above_content); ?>
-    </div>
-  <?php endif; ?>
-
   <div class="content"<?php print $content_attributes; ?>>
     <?php
       // We hide the comments and links now so that we can render them later.
@@ -110,12 +104,6 @@
       print render($content);
     ?>
   </div>
-
-  <?php if ($node_below_content): ?>
-    <div class="below_node_content">
-      <?php print render($node_below_content); ?>
-    </div>
-  <?php endif; ?>
 
   <?php //print render($content['links']); ?>
 

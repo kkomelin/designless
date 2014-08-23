@@ -214,3 +214,14 @@ ul.pager .pager-previous a:hover {
 }
 
 /* ~Content and fields. */
+
+/* Blocks */
+#search-block-form input[type="text"] {
+  max-width: 350px;
+  text-align:center;
+  direction: ltr;
+}
+#search-block-form .container-inline {
+  text-align: center;
+}
+/* ~Blocks*/

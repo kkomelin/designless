@@ -103,13 +103,6 @@
               </div> <!-- /#name-and-slogan -->
             <?php endif; ?>
           </div>
-
-          <div class="col-md-12" id="language-switcher">
-            <?php if ($simple_language_switcher): ?>
-              <?php print $simple_language_switcher; ?>
-            <?php endif; ?>
-          </div>
-
         </nav>
       </div>
       <div class="row">

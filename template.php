@@ -39,12 +39,8 @@ function designless_preprocess_username(&$variables) {
  *
  * @param $vars
  */
-function designless_preprocess_page(&$vars) {
-
-  // This is my hardcoded language switcher for RU and EN languages only.
-  // Feel free to comment it out or adapt to your reality.
-  $vars['simple_language_switcher'] =  _designless_simple_language_switcher();
-}
+//function designless_preprocess_page(&$vars) {
+//}
 
 /**
  * Implements hook_preprocess_node().
@@ -74,38 +70,4 @@ function designless_preprocess_node(&$vars) {
 
     drupal_add_html_head($author_info, 'author');
   }
-
-  // Add special region to put Ad inside the node.tpl.php.
-  if (!drupal_is_front_page()) {
-    if ($node_above_content = block_get_blocks_by_region('node_above_content')) {
-      $vars['node_above_content'] = $node_above_content;
-      $vars['node_below_content'] = '';
-    }
-
-    if ($node_below_content = block_get_blocks_by_region('node_below_content')) {
-      $vars['node_above_content'] = '';
-      $vars['node_below_content'] = $node_below_content;
-    }
-  }
-}
-
-/**
- * Creates link to another language.
- *
- * @return array
- */
-function _designless_simple_language_switcher() {
-  global $language;
-  $another_language = ($language->language == 'en') ? 'ru' : 'en';
-  $languages = language_list();
-
-  $options = array(
-    'attributes' => array(
-      'class' => array('another-language'),
-      'title' => strtoupper($another_language),
-    ),
-  );
-  $url = url('<front>', array('absolute' => TRUE, 'language' => $languages[$another_language]));
-
-  return l(strtoupper($another_language), $url, $options);
 }
