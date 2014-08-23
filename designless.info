@@ -16,10 +16,6 @@ regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
 
-; Special regions for being used in node template.
-regions[node_above_content] = Above node content
-regions[node_below_content] = Below node content
-
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
