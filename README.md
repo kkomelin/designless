@@ -1,7 +1,7 @@
 designless
 ==========
 
-[Bootstrap 3](https://github.com/twbs/bootstrap-sass) powered Drupal 7 theme with minimalistic design intended for personal blogs.
+[Bootstrap 3](https://github.com/twbs/bootstrap-sass) powered Drupal 7 theme with minimalistic design intended for personal blogs and other content centered sites.
 
 ###Requirements
 Just in case you're going to modify styles.  
