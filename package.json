@@ -1,0 +1,9 @@
+{
+  "name": "designless",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-compass": "latest",
+    "grunt-contrib-watch": "latest"
+  }
+}
