@@ -25,5 +25,4 @@ It's possible to make changes directly in stylesheets/styles.css file without sc
 
 ###Usage example
 
-- [Konstantin Komelin's Blog] (http://komelin.com)
 - [Promo Kids' Blog] (http://promokids.co/)
