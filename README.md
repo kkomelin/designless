@@ -22,7 +22,3 @@ Note: you may skip steps 3-5 if you prefer using ```compass watch``` command to 
 ###How to develop (traditionally)
 
 It's possible to make changes directly in stylesheets/styles.css file without scss -> css recompilation if you prefer traditional CSS-based development approach.
-
-###Usage example
-
-- [Promo Kids' Blog] (http://promokids.co/)
